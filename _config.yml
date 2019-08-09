@@ -1,0 +1,89 @@
+# Site settings
+title: Fábio Alves
+description: "Meu website pessoal"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://fabioafreitas.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+
+# User settings
+username: FÁBIO ALVES
+user_title: Fábio Alves - FrontEnd
+email: fbio.alves095@gmail.com
+#twitter_username: loremipsum
+github_username: fabioafreitas
+#gplus_username: loremipsum
+linkedin_public_url: fábio-alves-761667157/ # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+#disqus_username: loremipsum
+profile_picture: assets/img/profile.jpg
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: my projects
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: http://www.github.com/fabioafreitas
+      new_tab: true
+      key_trigger: g
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# projects in header index
+projects:
+  - name: MyAlert - Desenvolvimento Web
+    url: https://github.com/fabioafreitas/Projeto_Desenvolvimento_Web
+  - name: IA - Classificador de Imagens
+    url: https://github.com/fabioafreitas/Inteligencia_Artificial
+  - name: Computação Gráfica
+    url: https://github.com/fabioafreitas/Computacao_Grafica
+  - name: Internet of Things - Sistemas Distribuídos
+    url: https://github.com/fabioafreitas/Sistemas_Distribuidos
+  - name: PacMan Assembly MIPS
+    url: https://github.com/fabioafreitas/Pac_Man_Assembly
+  - name: Processador MIPS em Java
+    url: https://github.com/fabioafreitas/Processador_MIPS_Java
+  - name: Processador MIPS em Verilog
+    url: https://github.com/fabioafreitas/Processador_MIPS_Verilog
+  - name: Programação Oriantada a Objetos
+    url: https://github.com/fabioafreitas/Programacao_Orientada_a_Objetos
+  - name: Programação Concorrente, Funcional e Lógica
+    url: https://github.com/fabioafreitas/Paradigmas_de_Programacao
+  - name: Teste de Software - JUnit e TDD
+    url: https://github.com/fabioafreitas/JUnit_e_TDD
+  - name: Network Simulator 2 - Protocolos AD-HOC
+    url: https://github.com/fabioafreitas/Protocolos_AD_HOC
+  - name: Algoritmos e Estrutura de Dados
+    url: https://github.com/fabioafreitas/Algoritmos_e_Estrutura_de_Dados
+  - name: Mochila Booleana
+    url: https://github.com/fabioafreitas/Mochila_Booleana
+  - name: Práticas de Compiladores
+    url: https://github.com/fabioafreitas/Compiladores
+
+# exclude my node related stuff
+exclude: ["package.json", "src", "node_modules"]
